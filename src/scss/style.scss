@@ -1,0 +1,26 @@
+/*! ===========
+ * Proyecto:
+ * Fecha Inicio:
+ * Email Desarrollador:
+ * =========== */
+
+@import "inc/normalize";
+@import "inc/mixins";
+@import "inc/colors";
+@import "inc/fonts";
+@import "inc/sprites";
+@include sprites($spritesheet-sprites);
+@import "inc/variables";
+@import "inc/components";
+
+/* -----------
+ * ESTILOS GENERALES
+ * -------- */
+
+body {
+	font-family: $primary-fontfamily;
+}
+
+/* -----------
+ * HOME
+ * -------- */
